@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" variant="light" expand="lg">
+      <Navbar bg="light" fixed="top" variant="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link} to="/">
             <img
               alt="nav_Logo"
               src="https://i.ibb.co/MfJmmj7/nav.png"

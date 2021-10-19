@@ -10,12 +10,14 @@ const Service = ({ service }) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <div className="text-start">
-            <h4>Cost: ${price}</h4>
             <p className="card-text">{description}</p>
+            <h4>Cost: ${price}</h4>
           </div>
         </div>
         <div>
-          <Link><button className="btn btn-primary m-2">More Details</button></Link>
+          <Link to={`/service/${id}`}>
+            <button className="btn btn-primary m-2">More Details</button>
+          </Link>
         </div>
       </div>
     </div>

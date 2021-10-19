@@ -6,6 +6,7 @@ import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login/Login';
 import NotFound from './components/NotFound/NotFound/NotFound';
 import OnlineService from './components/OnlineService/OnlineService/OnlineService';
+import ServiceDetail from './components/Services/ServiceDetail/ServiceDetail';
 import Services from './components/Services/Services/Services';
 import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/services">
             <Services/>
+          </Route>
+          <Route exact path="/service/:detail">
+            <ServiceDetail/>
           </Route>
           <Route exact path="/e-doctor">
             <OnlineService/>

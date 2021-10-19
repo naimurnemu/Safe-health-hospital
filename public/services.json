@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "Mother-Child Spacial Care",
     "price": "200",
     "unit": "Mother&Child",
@@ -8,7 +8,7 @@
     "img": "https://i.ibb.co/SyN4Hfg/service1.png"
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Medicine Center",
     "price": "5-100",
     "unit": "Pharmacy",
@@ -16,7 +16,7 @@
     "img": "https://i.ibb.co/hX46xzW/service2.png"
   },
   {
-    "id": 3,
+    "id": "3",
     "title": "Pregnancy CheckUp",
     "price": "50",
     "unit": "Mother&Child",
@@ -24,7 +24,7 @@
     "img": "https://i.ibb.co/GdyJFgf/service3.png"
   },
   {
-    "id": 4,
+    "id": "4",
     "title": "Child With child specialist",
     "price": "500",
     "unit": "Child-care",
@@ -32,7 +32,7 @@
     "img": "https://i.ibb.co/ZmJxrdS/service4.png"
   },
   {
-    "id": 5,
+    "id": "5",
     "title": "Spacial Counciling",
     "price": "60",
     "unit": "Mental",
@@ -40,7 +40,7 @@
     "img": "https://i.ibb.co/6bX4BdQ/service5.png"
   },
   {
-    "id": 6,
+    "id": "6",
     "title": "Foreign Doctor Appoinment",
     "price": "40",
     "unit": "Health",
@@ -48,7 +48,7 @@
     "img": "https://i.ibb.co/5T6R6By/service6.png"
   },
   {
-    "id": 7,
+    "id": "7",
     "title": "ICU & Life-Support",
     "price": "2000",
     "unit": "Emergency",
@@ -56,7 +56,7 @@
     "img": "https://i.ibb.co/MfPpRqF/service7.png"
   },
   {
-    "id": 8,
+    "id": "8",
     "title": "Oparetion & Cosmetics",
     "price": "500-5000",
     "unit": "Emergency",

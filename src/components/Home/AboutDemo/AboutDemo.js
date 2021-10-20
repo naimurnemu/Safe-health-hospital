@@ -16,24 +16,24 @@ const AboutDemo = () => {
         <div className="col-sm-12 col-md-6 text-start ps-md-5 py-4">
           <h3 className="mb-0">Safe Health Clinic</h3>
           <h6 className="mt-0">
-            <i class="fas fa-map-marker-alt"></i> Hospital in Dhaka
+            <i className="fas fa-map-marker-alt"></i> Hospital in Dhaka
           </h6>
           <div className="p-3">
             <h2>
               <u>Get Us</u>
             </h2>
             <h5 className="text-primary mb-0">
-              <i class="fas fa-map-marked-alt"></i> Address
+              <i className="fas fa-map-marked-alt"></i> Address
             </h5>
             <p className="mt-0">
               21 Shyamoli, Mirpur Road, Dhaka-1207, Bangladesh
             </p>
             <h5 className="text-primary mb-0">
-              <i class="fas fa-phone-alt"></i> Phone
+              <i className="fas fa-phone-alt"></i> Phone
             </h5>
             <p className="mt-0">10633, +8809666700100</p>
             <h5 className="text-primary mb-0">
-              <i class="fas fa-at"></i> Email-Address
+              <i className="fas fa-at"></i> Email-Address
             </h5>
             <p className="mt-0">
               info@safehealth.com.bd, office.safehealth@hotmail.com

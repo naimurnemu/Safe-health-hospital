@@ -1,0 +1,50 @@
+[
+  {
+    "id": "90",
+    "name": "Mr Shawn Rodriguez",
+    "email": "shawn.rodriguez@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/men/32.jpg",
+    "rate": "4.1",
+    "comment": "Recently visited health check up department of Apollo Hospital for a whole body check up. The entire process from check in to the end was seamless. "
+  },
+  {
+    "id": "91",
+    "name": "Mr Bobby Mason",
+    "email": "bobby.mason@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/men/93.jpg",
+    "rate": "4.5",
+    "comment": "We met Dr Vijay Chennamchetty last month with severe cough and sputum for my father Dr Varaprasad."
+  },
+  {
+    "id": "92",
+    "name": "Mr Hans Peter",
+    "email": "hanspeter.schweizer@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/men/15.jpg",
+    "rate": "4.8",
+    "comment": "In Apollo hospital Dr.Radha Shah at reception people Mr.Venkat helping to patients excelent way of speaking Guidense."
+  },
+  {
+    "id": "93",
+    "name": "Mr Süleyman Küchler",
+    "email": "suleyman.kuchler@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/men/98.jpg",
+    "rate": "4.3",
+    "comment": "It's very well mannered staff good coordination with patients. Mrs. Praveena garu assisted very well and taken good care towards patients. "
+  },
+  {
+    "id": "94",
+    "name": "Ms Justine Noel",
+    "email": "justine.noel@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/women/78.jpg",
+    "rate": "4.4",
+    "comment": "Dr. Shree kumar Reddy is very experienced opthalmologist doctor in Hyderabad. I have been consulting him for 10+ years for me, "
+  },
+  {
+    "id": "96",
+    "name": "Miss Poppy White",
+    "email": "poppy.white@example.com",
+    "picture": "https://randomuser.me/api/portraits/med/women/48.jpg",
+    "rate": "5",
+    "comment": "Dr pallavi reddy mam and her secretary sandhya reddy mam given beyond expecting service to the patient."
+  }
+]

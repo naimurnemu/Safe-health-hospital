@@ -19,11 +19,20 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto fw-bold">
-              <Nav.Link as={Link} active to="/home">Home</Nav.Link>
-              <Nav.Link as={Link} active to="/services">Services</Nav.Link>
-              <Nav.Link as={Link} active to="/e-doctor">E-Doctor</Nav.Link>
-              <Nav.Link as={Link} active to="/about">About Us</Nav.Link>
-              <Nav.Link as={Link} active to="/login"><button className="btn btn-sm btn-outline-danger"><i className="fas fa-sign-in-alt"></i> Login</button></Nav.Link>
+              <Nav.Link as={Link} active to="/home">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} active to="/services">
+                Services
+              </Nav.Link>
+              <Nav.Link as={Link} active to="/about">
+                About Us
+              </Nav.Link>
+              <Nav.Link as={Link} active to="/login">
+                <button className="btn btn-sm btn-outline-danger">
+                  <i className="fas fa-sign-in-alt"></i> Login
+                </button>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

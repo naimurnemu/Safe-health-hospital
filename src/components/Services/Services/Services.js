@@ -5,7 +5,6 @@ import ServiceInfo from "../ServiceInfo/ServiceInfo";
 const Services = () => {
   // custom hook for load data
   const [services] = useService();
-  console.log(services)
   return (
     <div>
       <ServiceInfo />
@@ -20,6 +19,3 @@ const Services = () => {
 };
 
 export default Services;
-
-
- 

@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import useAuth from "../../../hooks/useAuth";
 
-// register by react hook form
 const Register = () => {
+  const [newUser, setNewUser] = useState({});
+
+  // recive register handelar
+  const { signUpNewUser, user, error } = useAuth();
+
+  // register by react hook form
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => setNewUser(data);
 
   return (
     <div className="mt-5 pt-5 container">
@@ -38,13 +44,20 @@ const Register = () => {
             />
             {errors.password && <span>Password id required</span>}
 
-            <input
+            {!user && <span>{error}</span>}
+
+            <button
+              onClick={() => signUpNewUser(newUser)}
               className="btn btn-primary m-3 d-block mx-auto"
               type="submit"
-            />
+            >
+              Register
+            </button>
           </form>
         </div>
-        <p>Already registired?<Link to="/login">Login</Link></p>
+        <p>
+          Already registired?<Link to="/login">Login</Link>
+        </p>
       </div>
     </div>
   );

@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import useAuth from "../../../hooks/useAuth";
 
-//login by react hook form
 const Login = () => {
+  const [oldUser, setOldUser] = useState({});
+
+  //login by react hook form
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => setOldUser(data);
 
+  // firebese signin method
+  const { signInWithGoogle, emailPasswordSignIn, user, error } = useAuth();
+
+  console.log(user);
   return (
     <div className="mt-5 pt-5 container">
       <div className="py-3 m-5 text-dark card mx-auto">
@@ -29,19 +36,29 @@ const Login = () => {
               {...register("password", { required: true })}
               placeholder="Password"
             />
-            {errors.password && <span>Password id required</span> }
+            {errors.password && <span>Password id required</span>}
+            {!user && <span>{error}</span>}
 
-            <input
+            <button
+              onClick={() => emailPasswordSignIn(oldUser)}
               className="btn btn-primary m-3 d-block mx-auto"
               type="submit"
-            />
+            >
+              Login
+            </button>
           </form>
         </div>
-        <p>New User?<Link to="/register">Register</Link></p>
+        <p>
+          New User?<Link to="/register">Register</Link>
+        </p>
         <hr />
-        <button className="btn mx-auto w-25 btn-danger">Login with Google</button>
+        <button
+          onClick={() => signInWithGoogle(oldUser)}
+          className="btn mx-auto w-25 btn-danger"
+        >
+          Login with Google
+        </button>
       </div>
-      
     </div>
   );
 };

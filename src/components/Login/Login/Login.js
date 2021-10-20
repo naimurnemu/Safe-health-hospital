@@ -17,7 +17,6 @@ const Login = () => {
   // firebese signin method
   const { signInWithGoogle, emailPasswordSignIn, user, error } = useAuth();
 
-  console.log(user);
   return (
     <div className="mt-5 pt-5 container">
       <div className="py-3 m-5 text-dark card mx-auto">

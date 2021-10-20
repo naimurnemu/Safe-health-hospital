@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ServiceDemo = () => {
   return (
     <div>
-      <h2 className="bg-success p-2 rounded my-3 ">Our Sevices</h2>
+      <h2 className="bg-primary p-2 rounded my-3 ">Our Sevices</h2>
       <div className="row align-items-center justify-content-center border-bottom border-white">
         <div className="col-md-8">
           <h4>Why us?</h4>

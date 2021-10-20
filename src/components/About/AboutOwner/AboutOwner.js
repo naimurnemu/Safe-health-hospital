@@ -30,9 +30,7 @@ const AboutOwner = () => {
                 Chiltern hills, playing the tenor saxophone, and helping with
                 family events at Amaravati Buddhist monastery. Roman is based in
                 Wendover, near London in the UK.​To discuss how Roman can help
-                you, please fill in the contact form or email him.​ Read more
-                at: https://www.romanpichler.com/about-roman/ Copyright ©
-                Pichler Consulting
+                you, please fill in the contact form or email him.​
               </p>
             </div>
           </div>

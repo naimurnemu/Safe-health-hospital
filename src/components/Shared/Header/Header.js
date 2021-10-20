@@ -36,7 +36,7 @@ const Header = () => {
                   <button onClick={logOut} className="btn btn-sm btn-success">
                     <i className="fas fa-user"></i> Log Out
                   </button>
-                  <span>{user.email.slice(0, 10)}</span>
+                  <span>&nbsp;{user.email.slice(0, 10)}</span>
                 </Nav.Link>
               ) : (
                 <Nav.Link as={Link} active to="/login">

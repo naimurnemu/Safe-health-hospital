@@ -1,5 +1,76 @@
 # Getting Started with Create React App
 
+# Grow Tech Bangladesh
+
+# Live-WebsiteLink: https://safe-health-d8c56.web.app/
+
+### This is A Website about an offline hospital. There is detail about this hospital. 
+About Project: This is a assignment of 2 day. 
+Here I create 3 section To describe hospital.
+
+In Home: I create 4 component to hilight demo. the components are Banner, Services demo, About , and Client reviews. 
+
+In sevices: I create a dyamic route for more detail . services has a banner. and hospital has 6 service
+
+In About Us: here I create only 2 component.
+one in emergency service detail. another is about onner of hospital. 
+
+# using technology: 
+
+1. Frond End library is React. 
+
+2. CSS Framework is BootStrap. 
+
+3. Used React Router for SPA routing. 
+
+4. React rating used to make reation dynamic. 
+
+5. for Login system here I use React Google Firebase logIn system. I also host this project in firebase. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
